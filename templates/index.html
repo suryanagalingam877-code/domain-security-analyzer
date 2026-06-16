@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Domain Security Analyzer
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+<body>
+
+    <div class="background-grid"></div>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>
+                DOMAIN SECURITY ANALYZER
+            </h1>
+
+            <p>
+                DNS • SSL • TLS • DMARC • DKIM • DNSSEC • WHOIS • SUBDOMAINS
+            </p>
+
+        </div>
+
+        <div class="scan-box">
+
+            <input
+                type="text"
+                id="domain"
+                placeholder="example.com"
+            >
+
+            <button
+                id="scanBtn"
+                onclick="startScan()"
+            >
+                SCAN DOMAIN
+            </button>
+
+        </div>
+
+        <div
+            id="loading"
+            class="loading hidden"
+        >
+
+            <div class="loader"></div>
+
+            <p>
+                Running Security Analysis...
+            </p>
+
+        </div>
+
+        <div
+            id="results"
+            class="hidden"
+        >
+
+            <div class="result-grid">
+
+                <div class="card">
+                    <h2>DNS RECORDS</h2>
+                    <pre id="dns"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>DMARC</h2>
+                    <pre id="dmarc"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>DKIM</h2>
+                    <pre id="dkim"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>DNSSEC</h2>
+                    <pre id="dnssec"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>CAA RECORDS</h2>
+                    <pre id="caa"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>SSL CERTIFICATE</h2>
+                    <pre id="ssl"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>TLS SUPPORT</h2>
+                    <pre id="tls"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>SECURITY HEADERS</h2>
+                    <pre id="headers"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>WHOIS</h2>
+                    <pre id="whois"></pre>
+                </div>
+
+                <div class="card">
+                    <h2>SUBDOMAINS</h2>
+                    <pre id="subdomains"></pre>
+                </div>
+
+            </div>
+
+            <div class="report-box">
+
+                <h2>
+                    GENERATED REPORTS
+                </h2>
+
+                <div id="reportLinks"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script
+        src="{{ url_for('static', filename='app.js') }}"
+    ></script>
+
+</body>
+
+</html>

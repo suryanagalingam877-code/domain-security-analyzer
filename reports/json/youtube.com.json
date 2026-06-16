@@ -11,14 +11,14 @@
         ],
         "NS": [
             "ns1.google.com.",
+            "ns2.google.com.",
             "ns4.google.com.",
-            "ns3.google.com.",
-            "ns2.google.com."
+            "ns3.google.com."
         ],
         "TXT": [
-            "\"facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1\"",
+            "\"google-site-verification=QtQWEwHWM8tHiJ4s-jJWzEQrD_fF3luPnpzNDH-Nw-w\"",
             "\"v=spf1 include:google.com mx -all\"",
-            "\"google-site-verification=QtQWEwHWM8tHiJ4s-jJWzEQrD_fF3luPnpzNDH-Nw-w\""
+            "\"facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1\""
         ],
         "SPF": [
             "\"v=spf1 include:google.com mx -all\""
@@ -224,23 +224,23 @@
             "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
             "Pragma": "no-cache",
             "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
-            "Date": "Tue, 16 Jun 2026 07:50:53 GMT",
+            "Date": "Tue, 16 Jun 2026 08:36:58 GMT",
             "P3P": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en-GB for more info.\"",
-            "X-Frame-Options": "SAMEORIGIN",
             "Strict-Transport-Security": "max-age=31536000",
-            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"youtube_main\"",
-            "Content-Security-Policy": "base-uri 'self';object-src 'none';script-src 'report-sample' 'nonce-op_Mvy6JGJYS6JZCUXKTQQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';report-uri https://csp.withgoogle.com/csp/youtube_main/strict, require-trusted-types-for 'script'",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Content-Security-Policy": "base-uri 'self';object-src 'none';script-src 'report-sample' 'nonce-bQs0LUWhmdJLnEw6GGWNmA' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';report-uri https://csp.withgoogle.com/csp/youtube_main/strict, require-trusted-types-for 'script'",
             "Accept-CH": "Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memory",
             "Vary": "Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memory",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"youtube_main\"",
             "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
             "Report-To": "{\"group\":\"youtube_main\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/youtube_main\"}]}",
             "Origin-Trial": "AmhMBR6zCLzDDxpW+HfpP67BqwIknWnyMOXOQGfzYswFmJe+fgaI6XZgAzcxOrzNtP7hEDsOo1jdjFnVr2IdxQ4AAAB4eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJWaWV3WFJlcXVlc3RlZFdpdGhEZXByZWNhdGlvbiIsImV4cGlyeSI6MTc1ODA2NzE5OSwiaXNTdWJkb21haW4iOnRydWV9, AiDEBptUfVeO93q48VdVMe/ubupazdAl8AaHP+NBzdnW8quUcHdzJUyGSfrmtpKJu7EOvwRp9ug2rEo3XU+WMAMAAAB2eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJEZXZpY2VCb3VuZFNlc3Npb25DcmVkZW50aWFsczIiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==",
-            "reporting-endpoints": "crash-reporting=\"/web-reports?context=eJwNzX9M1HUcx3G_PBe7OLy7732_38_n_R0tm7q1VkfglKnVMjRmNoRN2zQUOuhsFh5JxwETi7moWcRsszX6QdT6gbFulquGjCRnsRrKpDaZE00znURR0gxDR58_Hntt7_cfz5z27MVrk9aWO-ut9pKUde3jlPVZf8qavCNtVSxMW7XnmqyuyKaspqkcKu4O8tO6IJPrg3z1SZD-L4KMXw6ytCGXgc75xC_Mp6cvRPlQiNeNP2-GKHogTDoRJpgO89beMIVvhtE_hhlYHGH07Qhn_o3QsczmncdsxqtsSp-yaWmxedEo7rA58qlNXsZmc5_NbVdsLszYzK2LUloR5b5Rs3kOvQscYssctq1ymClzyKlz-K3VYeCQQ8mYw_Qlh_1XHW7MOvwVdnnVdSnXLtUpl-c7XTLdLpNDLslhlx2nXd6d57FGeSwSj5E8j-YFHg9t8Miv9zjwksfnr3hUtntYb3gcP-6Rdd6jbc7jsK1Y5Chm71XECxXeSsWWRxWB9Yr3jX01iuFaxcxziqMNip49ikyPYv-Q4vKYove04sFfFZ1XFP9kaXKzNSFj8C7NcL7mULGmq0Tz5VpN5hHNnHG9SdP2jSZwRJP8VnP2qGb3z5rUKc2OM5qV5zRbf9EUXzQ7oRm9qrk5rXltRmP9p_l9VjPvFuHlgLA6R3g4LHxgC-UinCgUoisE_36huVToMHZvELo3Cas2C4NGcKsw_IRQmRCcOuHiLqFxrxDvEnZ-aH4fCaM9wpSRe0AIGYcz5n5QKPvabL8wccx0vjPNE8L3RveI8MdJ0zslvDcmqLNC-3khMynwt7BxRrj9urDrhvCDsRqfwWyftoDPxlt9ysI-rcZI1Cew1Odp49IaH_9xn6lKn6G4z_JnfPbs9JlI-9zT6NPb4nPtBZ9obmC89djJ7MjB6b59WQtjzXUNqYbqRH5jojq2rb4umYolkk_Gauq3p7bXxGurlhQsKSooKlieX7Ci6tnC_wE6sfPI\"",
+            "reporting-endpoints": "crash-reporting=\"/web-reports?context=eJwNzH9o1HUcx_G-96xx3m27-973x-f9ZZFhA4m6uUkONUWZPzBjbqCBNW3e1hXiunPrdnM4RfxRmLoKTJmVThHdJh2WGNQwpyjDcTpcfyjijzRDZsPhD3Q6ZX3-ePD84wWvQPaVwgUJY3UgaSyb2GBsn58yHh9KGT93p4yh19NG1YS0UXdjjbE3vNTXPByg6q0gfy0MMrQoyKplQX47HKT71yDX7gR5pzGXE215xG7l0fF7PpW9-Xyn3XuRT-nMEOl4iGA6xJ6tIUp2h1B9IU4Uhhn4IczVJ2Fap5j8-IHJtWqT8s9MWlpMNmtlrSYnu0wKMiavDprcGjEZWxihvCrCuwO6BRZHxltEp1iMVFgEkhb_brCYf9libNhi5wOL56MW9bk222ybSmVTk7JZ32aTabcZ6rVJZG0-v2Lz00sOc12HN8Shv8ChebxD2WKHzi8dfvnawfje4fx5B99Nhz9Ml9FJLrESF2e6y_L3XfyLXPZr39a6ZOtcnnzh0rHRJdPhsrPXZdY_Lm2DLo98irwcRVjreVORLVIcK1McX6DIvKcY056uUWz5U-E_qUicUlw_rTjXp-jTUpcU028olv-tKLute1cx8EDx4qFix4jCeKb4b1T_vCx85RfmBIR5IeGAKVSIcKFEiEwTvBlCc7nQqq1bLLQvFWZ_KPRo2RXCx3HBSgq31wpNW4XYXqH-oDDQIQxruZ1CvpY9qnUL5lmh8oJwVmvvF-5d1N-XBOOysE9zrwuZIYH7wlHttafC2ufCOa3Q5zEHj54cj81-jyXjPCpCHhu0_ojHnbke8pHetN6Yx9RVHpvqPe6mPd5u8jjS4hHJ9XftOnMxJzwyePMb34Roc7Ix1VgTL2qK10Q_bUgmUtF44pNobcPK1MraWF315OLJpcWlxVOLiqdVry75H6bV4NM\"",
             "document-policy": "include-js-call-stacks-in-crash-reports",
             "Content-Encoding": "gzip",
             "Server": "ESF",
             "X-XSS-Protection": "0",
-            "Set-Cookie": "__Secure-YNID=19.YT=qjC4AhWxrKnhMgyBrfz67GXMBWskOmJeyigpG5beZ_LHUFTaG_eS41Ia-zoDSFWwD72F5TwyCArt1P9FrRBPWevNcWq4hmLnWOpFBu6g5Zi3Xx8PYRvj-Uucc5khpyHX2s0FufHJReChS_Fo-9ZGsByCi6ymH6bLjSGCJQe8AzhIzB41GJPkTRhVIGL8wH8UXZ93_VVb1ijJ2l2gLX4Mc-eWSqFYPjq8Jq6F78xh_cyAcTzyFztO0WnBGL-8JWcjUd_XwRlNrMdUnV66pKKJXErvAjZiYCwzmf89EDc3gH9vesDd98Ni6v09GKMRFrP0ZKkbSQxRmVe0NK4IH4un3Q; expires=Sun, 13-Dec-2026 07:50:52 GMT; path=/; domain=.youtube.com; Secure; HttpOnly; SameSite=none, GPS=1; Domain=.youtube.com; Expires=Tue, 16-Jun-2026 08:20:53 GMT; Path=/; Secure; HttpOnly, YSC=hbJdYgOzOFk; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none, __Secure-ROLLOUT_TOKEN=COz4hY_W-s-j2QEQ2vnJnqOLlQMY2vnJnqOLlQM%3D; Domain=youtube.com; Expires=Sun, 13-Dec-2026 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=none; Partitioned, __Secure-YEC=; Domain=.youtube.com; Expires=Wed, 20-Sep-2023 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=lax, VISITOR_INFO1_LIVE=xcBWP-prTMo; Domain=.youtube.com; Expires=Sun, 13-Dec-2026 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=none, VISITOR_PRIVACY_METADATA=CgJJThIEGgAgVA%3D%3D; Domain=.youtube.com; Expires=Sun, 13-Dec-2026 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=none",
+            "Set-Cookie": "__Secure-YNID=19.YT=JZLGUeXAYnraAXR7mqXw1fcFjR700wJsGsxYOa4N2XxwnOJ53dfUmr8lPTG-TaBzqNjFSUzkM_KSiC-aD5NHIJb-BIQEjqU2zCqHPJoyKgWkV0sKnzuJL9-FRV9OfUrXHTJ4R6hKq-WcVkTCOv9sN4LU0-6PhP14egh4p9tkAWlmxDe8vBq_R9vsCy62z-Sjz3BdTWjboPailNxO1TOpRFfkKUhf2EIVhpRyJPyJU16gNmww0wSG58UgygB1hSvAX2ggo6nHe6tnaHhUnU8VlOwcjnO9lOcZuojoRS3Nrg1K2QX9t-5o58FkDOWxACkk5YnWzynx27LuiH2s65IUwA; expires=Sun, 13-Dec-2026 08:36:57 GMT; path=/; domain=.youtube.com; Secure; HttpOnly; SameSite=none, GPS=1; Domain=.youtube.com; Expires=Tue, 16-Jun-2026 09:06:58 GMT; Path=/; Secure; HttpOnly, YSC=84qgNvAX_54; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none, __Secure-ROLLOUT_TOKEN=CN_7_cyNhJ-RZxDqxITFrYuVAxjqxITFrYuVAw%3D%3D; Domain=youtube.com; Expires=Sun, 13-Dec-2026 08:36:58 GMT; Path=/; Secure; HttpOnly; SameSite=none; Partitioned, __Secure-YEC=; Domain=.youtube.com; Expires=Wed, 20-Sep-2023 08:36:58 GMT; Path=/; Secure; HttpOnly; SameSite=lax, VISITOR_INFO1_LIVE=gk16_-IWEhI; Domain=.youtube.com; Expires=Sun, 13-Dec-2026 08:36:58 GMT; Path=/; Secure; HttpOnly; SameSite=none, VISITOR_PRIVACY_METADATA=CgJJThIEGgAgHg%3D%3D; Domain=.youtube.com; Expires=Sun, 13-Dec-2026 08:36:58 GMT; Path=/; Secure; HttpOnly; SameSite=none",
             "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
             "Transfer-Encoding": "chunked"
         },
