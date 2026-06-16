@@ -1,0 +1,347 @@
+
+<html>
+<head>
+<title>youtube.com</title>
+</head>
+
+<body>
+
+<h1>Domain Report</h1>
+
+<pre>
+{
+    "dns": {
+        "A": [
+            "142.251.221.110"
+        ],
+        "AAAA": [
+            "2404:6800:4007:836::200e"
+        ],
+        "MX": [
+            "0 smtp.google.com."
+        ],
+        "NS": [
+            "ns1.google.com.",
+            "ns4.google.com.",
+            "ns3.google.com.",
+            "ns2.google.com."
+        ],
+        "TXT": [
+            "\"facebook-domain-verification=64jdes7le4h7e7lfpi22rijygx58j1\"",
+            "\"v=spf1 include:google.com mx -all\"",
+            "\"google-site-verification=QtQWEwHWM8tHiJ4s-jJWzEQrD_fF3luPnpzNDH-Nw-w\""
+        ],
+        "SPF": [
+            "\"v=spf1 include:google.com mx -all\""
+        ]
+    },
+    "dmarc": {
+        "domain": "youtube.com",
+        "record_found": true,
+        "raw_record": "v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com",
+        "valid": true,
+        "score": 100,
+        "enforcement": "Strong Enforcement",
+        "parsed": {
+            "version": "DMARC1",
+            "policy": "reject",
+            "subdomain_policy": null,
+            "pct": null,
+            "rua": [
+                "mailto:mailauth-reports@google.com"
+            ],
+            "ruf": [],
+            "fo": null,
+            "adkim": null,
+            "aspf": null
+        },
+        "error": null
+    },
+    "dkim": {
+        "domain": "youtube.com",
+        "dkim_enabled": true,
+        "selectors_found": [
+            {
+                "selector": "selector1",
+                "record_name": "selector1._domainkey.youtube.com",
+                "found": true,
+                "records": [
+                    "k=rsa; p="
+                ],
+                "analysis": [
+                    {
+                        "version": null,
+                        "key_type": "rsa",
+                        "public_key_present": false
+                    }
+                ]
+            }
+        ],
+        "total_selectors_found": 1,
+        "score": 52,
+        "status": "Configured",
+        "error": null
+    },
+    "dnssec": {
+        "domain": "youtube.com",
+        "dnssec_enabled": false,
+        "dnskey_records": [],
+        "ds_records": [],
+        "rrsig_records": [],
+        "score": 0,
+        "status": "Not Enabled",
+        "error": null
+    },
+    "caa": {
+        "domain": "youtube.com",
+        "caa_enabled": true,
+        "records": [
+            "0 issue \"pki.goog\""
+        ],
+        "authorized_cas": [
+            "pki.goog"
+        ],
+        "wildcard_cas": [],
+        "iodef": [],
+        "score": 75,
+        "status": "Configured",
+        "error": null
+    },
+    "ssl": {
+        "issuer": {
+            "countryName": "US",
+            "organizationName": "Google Trust Services",
+            "commonName": "WE2"
+        },
+        "subject": {
+            "commonName": "*.google.com"
+        },
+        "serial_number": "122363354260684872421755184618006676413",
+        "version": "v3",
+        "signature_algorithm": "sha256",
+        "not_before": "2026-05-25 08:36:28+00:00",
+        "not_after": "2026-08-17 08:36:27+00:00",
+        "san": [
+            "*.google.com",
+            "*.appengine.google.com",
+            "*.bdn.dev",
+            "*.origin-test.bdn.dev",
+            "*.cloud.google.com",
+            "*.crowdsource.google.com",
+            "*.datacompute.google.com",
+            "*.google.ca",
+            "*.google.cl",
+            "*.google.co.in",
+            "*.google.co.jp",
+            "*.google.co.uk",
+            "*.google.com.ar",
+            "*.google.com.au",
+            "*.google.com.br",
+            "*.google.com.co",
+            "*.google.com.mx",
+            "*.google.com.tr",
+            "*.google.com.vn",
+            "*.google.de",
+            "*.google.es",
+            "*.google.fr",
+            "*.google.hu",
+            "*.google.it",
+            "*.google.nl",
+            "*.google.pl",
+            "*.google.pt",
+            "*.gemini.cloud.google.com",
+            "*.gstatic.com",
+            "*.metric.gstatic.com",
+            "*.gvt1.com",
+            "*.gcpcdn.gvt1.com",
+            "*.gvt2.com",
+            "*.gcp.gvt2.com",
+            "*.url.google.com",
+            "*.youtube-nocookie.com",
+            "*.ytimg.com",
+            "ai.android",
+            "android.com",
+            "*.android.com",
+            "*.flash.android.com",
+            "g.co",
+            "*.g.co",
+            "goo.gl",
+            "www.goo.gl",
+            "google-analytics.com",
+            "*.google-analytics.com",
+            "google.com",
+            "googlecommerce.com",
+            "*.googlecommerce.com",
+            "urchin.com",
+            "*.urchin.com",
+            "youtu.be",
+            "youtube.com",
+            "*.youtube.com",
+            "music.youtube.com",
+            "*.music.youtube.com",
+            "youtubeeducation.com",
+            "*.youtubeeducation.com",
+            "youtubekids.com",
+            "*.youtubekids.com",
+            "yt.be",
+            "*.yt.be",
+            "android.clients.google.com",
+            "*.aistudio.google.com"
+        ],
+        "public_key_size": 256,
+        "tls_version": "TLSv1.3",
+        "cipher": {
+            "name": "TLS_AES_256_GCM_SHA384",
+            "protocol": "TLSv1.3",
+            "bits": 256
+        },
+        "ssl_available": true,
+        "error": null
+    },
+    "tls": {
+        "TLSv1.0": {
+            "supported": false,
+            "negotiated_version": null,
+            "cipher": null
+        },
+        "TLSv1.1": {
+            "supported": false,
+            "negotiated_version": null,
+            "cipher": null
+        },
+        "TLSv1.2": {
+            "supported": true,
+            "negotiated_version": "TLSv1.2",
+            "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256"
+        },
+        "TLSv1.3": {
+            "supported": true,
+            "negotiated_version": "TLSv1.3",
+            "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        "supported_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ],
+        "highest_supported": "TLSv1.3"
+    },
+    "headers": {
+        "url": "https://youtube.com",
+        "reachable": true,
+        "status_code": 200,
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Content-Type-Options": "nosniff",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Tue, 16 Jun 2026 07:50:53 GMT",
+            "P3P": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en-GB for more info.\"",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"youtube_main\"",
+            "Content-Security-Policy": "base-uri 'self';object-src 'none';script-src 'report-sample' 'nonce-op_Mvy6JGJYS6JZCUXKTQQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';report-uri https://csp.withgoogle.com/csp/youtube_main/strict, require-trusted-types-for 'script'",
+            "Accept-CH": "Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memory",
+            "Vary": "Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memory",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Report-To": "{\"group\":\"youtube_main\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/youtube_main\"}]}",
+            "Origin-Trial": "AmhMBR6zCLzDDxpW+HfpP67BqwIknWnyMOXOQGfzYswFmJe+fgaI6XZgAzcxOrzNtP7hEDsOo1jdjFnVr2IdxQ4AAAB4eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJWaWV3WFJlcXVlc3RlZFdpdGhEZXByZWNhdGlvbiIsImV4cGlyeSI6MTc1ODA2NzE5OSwiaXNTdWJkb21haW4iOnRydWV9, AiDEBptUfVeO93q48VdVMe/ubupazdAl8AaHP+NBzdnW8quUcHdzJUyGSfrmtpKJu7EOvwRp9ug2rEo3XU+WMAMAAAB2eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJEZXZpY2VCb3VuZFNlc3Npb25DcmVkZW50aWFsczIiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==",
+            "reporting-endpoints": "crash-reporting=\"/web-reports?context=eJwNzX9M1HUcx3G_PBe7OLy7732_38_n_R0tm7q1VkfglKnVMjRmNoRN2zQUOuhsFh5JxwETi7moWcRsszX6QdT6gbFulquGjCRnsRrKpDaZE00znURR0gxDR58_Hntt7_cfz5z27MVrk9aWO-ut9pKUde3jlPVZf8qavCNtVSxMW7XnmqyuyKaspqkcKu4O8tO6IJPrg3z1SZD-L4KMXw6ytCGXgc75xC_Mp6cvRPlQiNeNP2-GKHogTDoRJpgO89beMIVvhtE_hhlYHGH07Qhn_o3QsczmncdsxqtsSp-yaWmxedEo7rA58qlNXsZmc5_NbVdsLszYzK2LUloR5b5Rs3kOvQscYssctq1ymClzyKlz-K3VYeCQQ8mYw_Qlh_1XHW7MOvwVdnnVdSnXLtUpl-c7XTLdLpNDLslhlx2nXd6d57FGeSwSj5E8j-YFHg9t8Miv9zjwksfnr3hUtntYb3gcP-6Rdd6jbc7jsK1Y5Chm71XECxXeSsWWRxWB9Yr3jX01iuFaxcxziqMNip49ikyPYv-Q4vKYove04sFfFZ1XFP9kaXKzNSFj8C7NcL7mULGmq0Tz5VpN5hHNnHG9SdP2jSZwRJP8VnP2qGb3z5rUKc2OM5qV5zRbf9EUXzQ7oRm9qrk5rXltRmP9p_l9VjPvFuHlgLA6R3g4LHxgC-UinCgUoisE_36huVToMHZvELo3Cas2C4NGcKsw_IRQmRCcOuHiLqFxrxDvEnZ-aH4fCaM9wpSRe0AIGYcz5n5QKPvabL8wccx0vjPNE8L3RveI8MdJ0zslvDcmqLNC-3khMynwt7BxRrj9urDrhvCDsRqfwWyftoDPxlt9ysI-rcZI1Cew1Odp49IaH_9xn6lKn6G4z_JnfPbs9JlI-9zT6NPb4nPtBZ9obmC89djJ7MjB6b59WQtjzXUNqYbqRH5jojq2rb4umYolkk_Gauq3p7bXxGurlhQsKSooKlieX7Ci6tnC_wE6sfPI\"",
+            "document-policy": "include-js-call-stacks-in-crash-reports",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "Set-Cookie": "__Secure-YNID=19.YT=qjC4AhWxrKnhMgyBrfz67GXMBWskOmJeyigpG5beZ_LHUFTaG_eS41Ia-zoDSFWwD72F5TwyCArt1P9FrRBPWevNcWq4hmLnWOpFBu6g5Zi3Xx8PYRvj-Uucc5khpyHX2s0FufHJReChS_Fo-9ZGsByCi6ymH6bLjSGCJQe8AzhIzB41GJPkTRhVIGL8wH8UXZ93_VVb1ijJ2l2gLX4Mc-eWSqFYPjq8Jq6F78xh_cyAcTzyFztO0WnBGL-8JWcjUd_XwRlNrMdUnV66pKKJXErvAjZiYCwzmf89EDc3gH9vesDd98Ni6v09GKMRFrP0ZKkbSQxRmVe0NK4IH4un3Q; expires=Sun, 13-Dec-2026 07:50:52 GMT; path=/; domain=.youtube.com; Secure; HttpOnly; SameSite=none, GPS=1; Domain=.youtube.com; Expires=Tue, 16-Jun-2026 08:20:53 GMT; Path=/; Secure; HttpOnly, YSC=hbJdYgOzOFk; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none, __Secure-ROLLOUT_TOKEN=COz4hY_W-s-j2QEQ2vnJnqOLlQMY2vnJnqOLlQM%3D; Domain=youtube.com; Expires=Sun, 13-Dec-2026 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=none; Partitioned, __Secure-YEC=; Domain=.youtube.com; Expires=Wed, 20-Sep-2023 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=lax, VISITOR_INFO1_LIVE=xcBWP-prTMo; Domain=.youtube.com; Expires=Sun, 13-Dec-2026 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=none, VISITOR_PRIVACY_METADATA=CgJJThIEGgAgVA%3D%3D; Domain=.youtube.com; Expires=Sun, 13-Dec-2026 07:50:53 GMT; Path=/; Secure; HttpOnly; SameSite=none",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+        },
+        "security_headers": {
+            "Strict-Transport-Security": true,
+            "Content-Security-Policy": true,
+            "X-Frame-Options": true,
+            "X-Content-Type-Options": true,
+            "Referrer-Policy": false,
+            "Permissions-Policy": true,
+            "Cross-Origin-Opener-Policy": true,
+            "Cross-Origin-Embedder-Policy": false
+        },
+        "missing_headers": [
+            "Referrer-Policy",
+            "Cross-Origin-Embedder-Policy"
+        ],
+        "score": 75,
+        "grade": "B",
+        "server": "ESF",
+        "powered_by": "Not Disclosed",
+        "error": null
+    },
+    "whois": {
+        "domain": "youtube.com",
+        "registrar": "MarkMonitor, Inc.",
+        "creation_date": "2005-02-15 05:13:12",
+        "expiration_date": "2027-02-15 05:13:12",
+        "updated_date": "2026-01-14 10:29:14",
+        "name_servers": [
+            "NS1.GOOGLE.COM",
+            "NS2.GOOGLE.COM",
+            "NS3.GOOGLE.COM",
+            "NS4.GOOGLE.COM"
+        ],
+        "status": [
+            "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+            "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+            "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+            "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+            "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+            "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+            "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+            "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+            "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+            "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+            "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+        ],
+        "emails": [
+            "abusecomplaints@markmonitor.com",
+            "whoisrequest@markmonitor.com"
+        ],
+        "organization": "Google LLC",
+        "country": "US",
+        "dnssec": "unsigned",
+        "raw": {
+            "domain_name": "YOUTUBE.COM",
+            "registrar": "MarkMonitor, Inc.",
+            "registrar_url": "http://www.markmonitor.com",
+            "reseller": "None",
+            "whois_server": "whois.markmonitor.com",
+            "referral_url": "None",
+            "updated_date": "2026-01-14 10:29:14+00:00",
+            "creation_date": "2005-02-15 05:13:12+00:00",
+            "expiration_date": "[datetime.datetime(2027, 2, 15, 5, 13, 12, tzinfo=tzoffset('UTC', 0)), datetime.datetime(2027, 2, 15, 0, 0, tzinfo=tzoffset('UTC', 0))]",
+            "name_servers": "['NS1.GOOGLE.COM', 'NS2.GOOGLE.COM', 'NS3.GOOGLE.COM', 'NS4.GOOGLE.COM']",
+            "status": "['clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited', 'clientTransferProhibited https://icann.org/epp#clientTransferProhibited', 'clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited', 'serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited', 'serverTransferProhibited https://icann.org/epp#serverTransferProhibited', 'serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited', 'clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)', 'clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)', 'clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)', 'serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)', 'serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)', 'serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)']",
+            "emails": "['abusecomplaints@markmonitor.com', 'whoisrequest@markmonitor.com']",
+            "dnssec": "unsigned",
+            "name": "None",
+            "org": "Google LLC",
+            "address": "None",
+            "city": "None",
+            "state": "None",
+            "registrant_postal_code": "None",
+            "country": "US",
+            "tech_name": "None",
+            "tech_org": "None",
+            "admin_name": "None",
+            "admin_org": "None"
+        },
+        "error": null
+    },
+    "subdomains": {
+        "count": 0,
+        "subdomains": []
+    }
+}
+</pre>
+
+</body>
+</html>
